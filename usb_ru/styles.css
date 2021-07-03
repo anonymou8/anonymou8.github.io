@@ -1,0 +1,32 @@
+body {
+	width: 800px;
+	margin: 0 auto;
+	line-height: 150%;
+}
+h1,h1,h3,h4,h5 {
+	line-height: 120%;
+}
+h1 {font-size: 49px;}
+h2 {font-size: 33px;}
+h3 {font-size: 24px;}
+h4 {font-size: 24px;}
+h5 {font-size: 24px;}
+em {
+	color: #555;
+}
+p code, li code, h5 code {
+	color: #d00000;
+	font-weight: bold;
+	font-size: 120%;
+	background-color: #e8e8e8;
+	padding: 0 4px;
+}
+img {
+	margin-left: -2em;
+}
+p {
+	text-indent: 2em;
+}
+p, li {
+	text-align: justify;
+}

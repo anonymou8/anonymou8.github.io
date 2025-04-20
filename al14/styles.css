@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "FiraSL";
+	font-style: normal;
+    src: url(fonts/FiraSans-Light.ttf) format("truetype");
+}
+@font-face {
+    font-family: "FiraSL";
+	font-style: italic;
+    src: url(fonts/FiraSans-LightItalic.ttf) format("truetype");
+}
+@font-face {
+    font-family: "FiraSL";
+	font-style: normal;
+	font-weight: bold;
+    src: url(fonts/FiraSans-Medium.ttf) format("truetype");
+}
+@font-face {
+    font-family: "FiraSL";
+	font-style: italic;
+	font-weight: bold;
+    src: url(fonts/FiraSans-MediumItalic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "LiberationM";
+	font-style: normal;
+    src: url(fonts/LiberationMono-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "LiberationM";
+	font-style: italic;
+    src: url(fonts/LiberationMono-Italic.ttf) format("truetype");
+}
+
+
+html {
+	background: #333848;
+}
+body { 
+	font-family: FiraSL; 
+	font-size: 20px;
+	line-height: 1.5; 
+	color: #445; 
+	max-width: 1160px; 
+	padding: 40px; 
+	margin: 40px auto; 
+	text-align:justify;
+	background: white;
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+}
+h1, h2, h3, p, blockquote, ul, ol, pre, hr, table { 
+	margin: 17px 0; 
+}
+h1, h2, h3 { 
+	font-weight: bold; 
+	margin-top: 50px; 
+	margin-bottom: 30px; 
+}
+h4 {
+	margin-top: 40px; 
+	margin-bottom: 10px; 
+	padding-left: 30px;
+}
+h1 { 
+	padding-bottom:3px; 
+	border-bottom: 1px solid #ddd;
+}
+hr { 
+	height: 0; 
+	border: 0; 
+	border-bottom: 1px solid #ddd; 
+	margin-top: 27px;
+}
+a { 
+	color: #4078f2; 
+	text-decoration: none; 
+} 
+a:hover { 
+	text-decoration: underline; 
+}
+a[name] {
+	color: #a626a4;
+}
+strong, b { 
+	font-weight: bold; 
+} 
+ul, ol { 
+	padding-left: 52px; 
+}
+ol p, ul p { 
+	margin: 0;
+}
+ul ul {
+	margin: 5px 0;
+}
+li { 
+	padding-left: 6px;
+	margin-bottom:5px;
+}
+pre, code { 
+	font-family: LiberationM;
+	font-size: 15px; 
+}
+p code, td code {
+	background-color: #f8f8f8;
+	font-size: 16px;
+	padding: 3px;
+	border: 1px solid #eeeeee;
+}
+p {
+	text-indent: 30px;
+}
+li p {
+	text-indent: 0;
+}
+th, td { 
+	border: 1px solid #e0e0e0; 
+	padding: 5px 10px;
+	vertical-align: top;
+}
+th { 
+	text-align: left; 
+	background-color: #fafafa; 
+	padding: 16px 10px;
+}
+td strong {
+	color: #4078f2;
+}
+/*tr:nth-child(odd) {
+	background-color: #fff; 
+} */
+table { 
+	background-color: #fff; 
+	border-collapse: collapse; 
+	width: 100%;
+	margin-bottom: 30px; 
+}
+blockquote { 
+	padding-left: 15px; 
+	color: #777; 
+	border-left: 4px solid #ddd; 
+}
+img { 
+	display:block; 
+	margin: 40px auto; 
+	border: 0; 
+	vertical-align: -25%; 
+} 
+i { 
+	color: #777; 
+	font-size: 75%; 
+} 
+.right { 
+	text-align: right; 
+}
+
+.hljs { 
+	padding: 15px; 
+	padding-left: 30px;
+}
+
+.hljs-comment {
+	color: #7e7e7e;
+}
+audio {
+	display: block;
+	margin: 20px auto; 
+	width: 100%;
+}
